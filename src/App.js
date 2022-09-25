@@ -6,6 +6,7 @@ import Home from './components/pages/Home'
 import AboutUs from './components/pages/AboutUs';
 import Projects from './components/pages/Projects';
 import JoinUs from './components/pages/JoinUs';
+import Activities from './components/pages/Activities';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/aboutus' exact element={<AboutUs />} />
           <Route path='/projects' exact element={<Projects />} />
           <Route path='/joinus' exact element={<JoinUs />} />
+          <Route path='/activities' exact element={<Activities />} />
         </Routes>
       </Router>
     </>
